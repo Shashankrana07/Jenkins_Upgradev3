@@ -21,12 +21,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>${maven-war-plugin.version}</version>
-        <configuration>
-          <failOnMissingWebXml>false</failOnMissingWebXml>
-          <warName>${project.artifactId}</warName>
-          <attachClasses>true</attachClasses>
-        </configuration>
+        <version>3.3.2</version>
         <executions>
           <execution>
             <phase>package</phase>
