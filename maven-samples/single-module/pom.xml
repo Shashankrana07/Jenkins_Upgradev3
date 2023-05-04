@@ -32,8 +32,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
         <configuration>
-             <fork>true</fork>
-             <executable>/usr/lib/jvm/java-17-openjdk-17.0.7.0.7-1.el8_7.x86_64/bin/java</executable>
+            <fork>true</fork>
+            <executable>/usr/lib/jvm/java-17-openjdk-17.0.7.0.7-1.el8_7.x86_64/bin/java</executable>
         </configuration>
       </plugin>
       
